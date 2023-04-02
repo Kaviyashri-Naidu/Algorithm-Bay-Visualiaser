@@ -1,0 +1,135 @@
+<html>
+    <head>
+        <title>Home page</title>
+    </head>
+    <body>
+        <div class="header">
+        <h2>AlgorithmBay</h2>
+        </div>
+     </div>
+        
+            
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+<div class="cards">
+  <div class="card">
+    <h2 class="card-title">Sorting</h2>
+    <img src="./img/1.png" alt="">
+    <p class="card-desc">Sorting is the process of arranging the elements of an array so that they can be placed either in ascending or descending order. </p>
+  </div>
+  <div class="card">
+    <h2 class="card-title">Path Finding</h2>
+    <img src="./img/2.webp" alt="">
+    <p class="card-desc">algorithms are used to search the tree and find the shortest path from starting node to goal node in the tree.</p>
+  </div>
+  <div class="card">
+    <h2 class="card-title">Searching</h2>
+    <img src="./img/3.webp" alt="">
+    <p class="card-desc">Searching Algorithms are designed to check for an element or retrieve an element from any data structure where it is stored.</p>
+  </div>
+  <div class="card">
+    <h2 class="card-title">Scheduling</h2>
+    <img src="./img/4.jpg" alt="">
+    <p class="card-desc">A Scheduling Algorithm is the algorithm which tells us how much CPU time we can allocate to the processes.</p>
+  </div>
+</div>
+
+
+        </div>
+    </body>
+</html>
+<style>
+    
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #c5d9ed;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  margin: 40px;
+  position: relative;
+  max-width: 350px;
+  max-height: 350px;
+  box-shadow: 0 40px 60px -6px black;
+}
+
+.card-title {
+  display: block;
+  text-align: center;
+  color: #fff;
+  background-color: #043959;
+  padding: 2%;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.card img {
+  width: 100%;
+  height: 98%;
+  object-fit: cover;
+  display: block;
+  position: relative;
+}
+
+.card-desc {
+  display: block;
+  font-size: 1.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: absolute;
+  height: 0;
+  top: 0;
+  opacity: 0;
+  padding: 18px 8%;
+  background-color: white;
+  overflow-y: scroll;
+  transition: 0.8s ease;
+}
+
+.card:hover .card-desc {
+  opacity: 1;
+  height: 100%;
+}
+
+h1 {
+  font-size: 2.8rem;
+  color: #fff;
+  margin: 40px 0 20px 0;
+  text-align: center;
+}
+.header {
+  height: 90px;
+  width: 100%;
+  display: flex;
+  font-size: 30px;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #096fc2;
+  padding: 0px 80px;
+  box-shadow: 0 20px 40px -2px#fcffff;
+  
+}
+
+
+
+
+</style>
